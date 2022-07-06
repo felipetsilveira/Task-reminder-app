@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Jantar de formatura da fulana",
+      "day": "01 de maio",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Assinar o contrato",
+      "day": "05 de julho",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Aniversário do Fulano",
+      "day": "01 de setembro",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Academia",
+      "day": "15 de julho",
+      "reminder": true
+    },
+    {
+      "id": 5,
+      "text": "Estudar para a prova",
+      "day": "21 de setembro",
+      "reminder": true
+    },
+    {
+      "id": 6,
+      "text": "Verificar o resultado da prova",
+      "day": "06 de julho",
+      "reminder": false
+    }
+  ]
+}
