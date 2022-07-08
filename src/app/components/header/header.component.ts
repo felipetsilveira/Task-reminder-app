@@ -9,7 +9,7 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  title: string = 'Task Seeker'
+  title: string = 'Reminders'
   showAddTask: boolean = false
   subscription: Subscription
 

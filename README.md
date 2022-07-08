@@ -1,6 +1,8 @@
-# AngProj
+## Criador de tarefas 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+Aplicação para criar pequenos lembretes / This is a small application to create reminders
+
+Após rodar `npm/yarn install`, seguir as intruções abaixo / After run `npm/yarn install`, follow instructions below
 
 ## Development server
 
