@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { UiService } from 'src/app/services/ui.service';
+import { Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -12,7 +13,7 @@ export class HeaderComponent implements OnInit {
   showAddTask: boolean = false
   subscription: Subscription
 
-  constructor(private uiService:UiService) {
+  constructor(private uiService:UiService, private router: Router) {
     this.subscription = this.uiService.onToggle().subscribe(value => {
       this.showAddTask = value
     })
@@ -24,8 +25,12 @@ export class HeaderComponent implements OnInit {
   toggleAddTask() {
     this.uiService.toggleAddTask()
   }
-
+// Only a test to check functionality. I willi keep it by pedagogical porpuose
   doSome() {
-    console.table('x')
+    console.warn('Click is working')
+  }
+// This set the button to only shows when router is '/'
+  hasRoute(route: String) {
+    return this.router.url === route
   }
 }
